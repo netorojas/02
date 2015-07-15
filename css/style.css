@@ -37,9 +37,11 @@ body > header {
           float: left;
           width: 25%; } }
       body > header > .content > .logo-container > .logo-container__logo {
-        width: 80%;
-        margin-left: 10%; }
+        width: 70%;
+        margin-left: 20%;
+        margin-top: none; }
     body > header > .content > .search-container {
+      margin-top: 15px;
       position: relative;
       float: left;
       width: 100%;
@@ -69,11 +71,12 @@ body > header {
       @media (min-width: 992px) {
         body > header > .content > .search-container {
           margin-left: 41.66667%; } }
-      body > header > .content > .search-container input.form-control .form-control search-container {
+      body > header > .content > .search-container input.search-container__input.form-control {
         height: 45px;
+        width: 100%;
         font: 13px "Oxygen";
         color: #CCCCCC;
-        margin-top: 7px;
+        margin-top: 6px;
         border: 1px solid #DDDDDD; }
 body > #navegacao {
   background: #CA3034; }
