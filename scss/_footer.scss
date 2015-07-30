@@ -1,0 +1,20 @@
+/*_footer.scss*/
+footer {
+	background-color: #333333;
+	> .content {		
+		> .logo-container {
+			> .logo-container__logo {
+				@include make-xs-column(12);
+				@include make-sm-column(4);
+				@include make-dm-column(3);
+			}
+		}
+		> p{
+
+		}
+		> span {
+			
+		}
+
+	}
+}

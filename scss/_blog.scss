@@ -1,8 +1,10 @@
+/*_blog.scss*/
 #blog {
 	#posts {
 		@include make-xs-column(12);	
 		@include make-sm-column(7);
 		@include make-md-column(9);
+		margin-letft: 15px;
 		> .posts__item{
 			margin-bottom: 30px;
 			> h2{
